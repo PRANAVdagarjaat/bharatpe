@@ -1,0 +1,148 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 5px 4px 5px black;
+    background-color: #fff; /* Add background color */
+    padding: 0 20px; /* Add padding to the navbar */
+}
+
+#top-img img {
+    height: 35px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 0;
+}
+
+li {
+    margin: 0 15px;
+    color: black;
+    position: relative;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff; /* Background color for dropdown */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+li:hover > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#login-topnav {
+    cursor: pointer;
+    width:90px;
+    height:40px;
+    background-color:white;
+    border:1px solid blue;
+    font-weight: bold;
+    font-size: medium;
+    color:blue;
+    border-radius: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+#abc{
+    border: 10px;
+    border-radius: 15px;
+    
+}
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+    color: blue;
+}
+p{
+    font-size: 35px;
+}
+
+.XYZ{
+    display: flex;
+
+}
+
+section{
+    height: 600px;
+    background-color: rgb(31, 29, 29);
+}
+
+h3{
+    display: flex;
+    padding-top: 40px;    
+    justify-content: center;
+    color: azure;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Pra{
+    display: flex;
+    justify-content:space-around;
+}
+
+#Dagar{
+    color: white;
+    font-size: xx-large;
+    display:flex ;
+    justify-content:center ;
+    align-items:center;
+}
+
+#Pranav{
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    justify-content: center;
+    padding: 2px auto;
+}
+.box
+{
+    justify-content: center;
+    align-items: center;
+}
+
+#kumar{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#img{
+    border-radius: 15px;
+    height: 300px;
+    width: 400px;
+}
+
+.Per{
+    font-size: 25px;
+}
+
+.per{
+    font-size: x-large;
+}
